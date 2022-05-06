@@ -1,15 +1,31 @@
+
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Codejam "Virtual Keyboard"</title>
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./style.css">
-  </head>
-  <body>
-    <div id="keyboard"></div>
-    <script src="./script.js"></script>
-  </body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Keyboard</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <div>
+        <textarea  id="windowScreen"></textarea>
+    </div>
+    <button onclick="funcDel()" class="BackSpace">BackSpace</button>
+    <button onclick="funcTab()" class="key">Tab<span></span></button>
+    <button onclick="funcCl()" class="CapsLock">CapsLock</button>
+    <button onclick="funcEnter()" class="Enter">Enter</button>
+    <button onclick="funcClear()" class="Shift">Del</button>
+    <button onclick="funcShift()" class="Shift" id="sh">Shift</button>
+    <button onclick="funcShift()" class="Shift">Shift</button>
+    <button onclick="funcShift()" class="Shift">Ctrl</button>
+    <button onclick="funcShift()" class="Shift">Ctrl</button>
+    <button onclick="funcShift()" class="Shift">Alt</button>
+    <button onclick="funcShift()" class="Shift">Win</button>
+    <button onclick="funcSpase()" class="Spase"></button>
+        <div id="keyboard" onclick="funcSc1()">
+           
+        </div>
+        <script src="script.js" ></script>
+    </body>
 </html>

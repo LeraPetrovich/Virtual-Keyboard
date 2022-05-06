@@ -1,27 +1,108 @@
-#keyboard{
+#keyboard {
     display: block;
-    border: 2px solid black;
+    border: 2px solid gray;
     padding: 5px;
-    margin-top:25%;
-}
-#keyboard::after{
-    content: "";
+    width: 1000px;
+    background: linear-gradient(to top, rgb(75,75,75), rgb(225,225,225));
+  }
+  
+  #keyboard::after {
+    content: '';
     display: block;
     clear: both;
-}
-.k-key{
+  }
+  
+  .k-key {
     width: 50px;
     height: 50px;
-    border: 1px solid black;
     margin: 3px;
-    padding: 3px;
     float: left;
-}
-.clearfix{
-    display: block;
-    width: 100%;
+    font-size: 25px;
+    border: 1px solid rgb(180,180,180);
+    text-align: center;
+    border-radius: 3px;
+    background-color: rgb(220,220,220);
+    
+  }
+  
+  .clearfix {
+    
     clear: both;
+  }
+  
+  .active:active {
+   
+    vertical-align: middle;
+    background-color: rgb(150,150,150);
+  }
+  .i-1{
+    margin: 10px 50px;
+    font-size:1.3em; padding:80px 10px;
+    width: 50%;
+  }
+
+  .buttons{
+    outline: none;
+    margin-top: 100px;
 }
-.active{
-    background: blue;
+.buttons button{
+  z-index: 10;
+    margin: 3px;
+    background: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    border: 1px solid gray;
+    border-radius: 5px;
 }
+.buttons button:active{
+    border: 1px solid gray;
+}
+.buttons{
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+.key{
+    height: 35px;
+    width: 50px;
+}
+
+
+#windowScreen {
+  display: block;
+  width: 700px;
+  height: 200px;
+  margin: 0 auto;
+  font-size: 30px;
+  border: 2px solid rgb(225,225,225);
+  border-radius: 2px;
+  resize:none
+  
+}
+
+*[data="Del"]{height: 50px;
+  width: 65px;}
+      *[data="Tab"]{ 
+      width: 75px;
+      height: 50px;}
+      *[data=" "]{ 
+        height: 50px;
+        width: 365px;}
+        *[data="Enter"]{ 
+          height: 50px;
+          width: 135px;}
+          *[data="Ctrl"]{ 
+            width: 85px;
+            height: 50px;}
+            *[data="Shift"]{ 
+              height: 50px;
+    width: 145px;}
+    *[data="Backspace"]{ 
+      height: 50px;
+      width: 150px;}
+      *[data="CapsLk"]{ 
+        height: 50px;
+        width: 120px;}
+
+      
