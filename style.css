@@ -4,6 +4,7 @@
     padding: 5px;
     width: 1000px;
     background: linear-gradient(to top, rgb(75,75,75), rgb(225,225,225));
+    margin: 0 auto;
   }
   
   #keyboard::after {
@@ -11,6 +12,7 @@
     display: block;
     clear: both;
   }
+  
   
   .k-key {
     width: 50px;
@@ -24,17 +26,21 @@
     background-color: rgb(220,220,220);
     
   }
-  
+  .activCL{
+    background-color: aqua;
+  }
   .clearfix {
     
     clear: both;
   }
   
-  .active:active {
-   
-    vertical-align: middle;
-    background-color: rgb(150,150,150);
+  .active:active{
+    background-color: rgb(140, 140, 239);
   }
+  .active:hover{
+    background-color: rgb(140, 140, 239);
+  }
+  
   .i-1{
     margin: 10px 50px;
     font-size:1.3em; padding:80px 10px;
@@ -71,7 +77,7 @@
 
 #windowScreen {
   display: block;
-  width: 700px;
+  width: 1000px;
   height: 200px;
   margin: 0 auto;
   font-size: 30px;
@@ -105,4 +111,4 @@
         height: 50px;
         width: 120px;}
 
-      
+     
