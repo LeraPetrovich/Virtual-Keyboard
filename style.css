@@ -3,7 +3,7 @@
     border: 2px solid gray;
     padding: 5px;
     width: 1000px;
-    background: linear-gradient(to top, rgb(75,75,75), rgb(225,225,225));
+ background-color: lightslategrey;
     margin: 0 auto;
   }
   
@@ -23,11 +23,11 @@
     border: 1px solid rgb(180,180,180);
     text-align: center;
     border-radius: 3px;
-    background-color: rgb(220,220,220);
+    background-color: darkgrey;
     
   }
-  .activCL{
-    background-color: aqua;
+  .k-key:hover{
+    background-color: white;
   }
   .clearfix {
     
@@ -63,6 +63,7 @@
 }
 .buttons button:active{
     border: 1px solid gray;
+ 
 }
 .buttons{
     background: #fff;
@@ -73,6 +74,7 @@
     height: 35px;
     width: 50px;
 }
+
 
 
 #windowScreen {
